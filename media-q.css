@@ -1,0 +1,210 @@
+@media screen and (max-width: 420px){
+    body{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .header{
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    .header__icons{
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0px auto;
+    }
+    hr{
+        max-width: 400px;
+    }
+    .icons__img{
+        font-size: 5px;
+        width: 15px;
+        line-height: 15px;
+    }
+    .icons__text{
+        line-height: 15px;
+        font-size: 7px;
+    }
+    .header__title{
+        font-size: 40px;
+        letter-spacing: 4px;
+        margin: 30px auto;
+    }
+    .header__subtitle{
+        letter-spacing: 1px;
+        font-size: 10px;
+    }
+    .header__section{
+        max-width: 400px;
+        text-align: center;
+        justify-content: center;
+    }
+    .header__text{
+        font-size: 13px;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .header__row{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .header__image{
+        width: 90%;
+        border: 5px solid #D9D9D9;
+        margin: 30px 0px;
+    }
+    .ad-section{
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    hr{
+        max-width: 400px;
+    }
+    .ad-section__bg-image{
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+    .ad-section__text{
+        position: absolute;
+        top: 2400px;
+        left: 110px;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+        letter-spacing: 1px;
+        max-width: 200px;
+        margin: 0px auto;
+    }
+    .content{
+        max-width: 400px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .content__image{
+        max-width: 350px;
+        border: 5px solid #D9D9D9;
+        margin: 0px auto;
+        margin-bottom: 25px;
+    }
+    .content__image-block{
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        max-width: 350px;
+    }
+
+    .content__main-block_1{
+        margin-bottom: 30px;
+    }
+    .content__title{
+        font-size: 18px;
+        letter-spacing: 2.5px;
+        color: #5D5D5D;
+        text-align: center;
+        max-width: 300px;
+        margin: 0px auto;
+        margin-bottom: 25px;
+    }
+    .content__subtitle{
+        font-size: 18px;
+        text-align: center;
+        margin: 20px auto;
+    }
+    .content__text{
+        text-align: center;
+        margin: 30px auto;
+    }
+    .content__btn{
+        text-align: center;
+        margin: 30px auto; 
+    }
+    .content__sidebar{
+        max-width: 300px;
+        margin: 10px auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .content__timetable-btn{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+    }
+    .content__btn-2{
+        text-align: center;
+        margin: 30px auto;  
+    }
+   .footer-info-contact{
+       display: inline-block;
+       max-width: 400px;
+   }
+   .footer-block{
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 1400px;
+   } 
+   .footer__title{
+    font-size: 18px;
+    max-width: 350px;
+}
+.footer__input-block-1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 400px;
+}
+.footer__input-block-1_name{
+    margin: 20px;
+    width: 90%;
+    height: 40px;
+}
+.footer__input-block-1_email{
+    margin: 20px;
+    width: 90%;
+    height: 40px;
+}
+.footer__input-block_text{
+    width: 90%;
+    height: 140px;
+    margin: 0px 20px;
+}
+.footer__content-block_text{
+   max-width: 400px;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+}
+.footer__contact-block{
+    margin: 0px auto;
+    max-width: 400px;
+}
+.footer__icons-block{
+    display: flex;
+    flex-direction: column;
+    margin: 27px 0px;
+}
+.footer__copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    text-align: center;
+    max-width: 400px;
+}
+.footer__copyright_text-2{
+    border-left: 0px;
+}
+}
+
+
